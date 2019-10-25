@@ -10,7 +10,10 @@ MinsaPay is an electronic payment system designed for the KMLA Summer Festival (
 |----|----|
 |Users|400|
 |Transactions|2,900|
-|Aggregate amount|Transacted $14,400 approx.|
+|Total payment amount|Made payment worth $4,000|
+|Total transaction amount|Transacted worth $14,400|
+
+The `Aggregate payment amount` only includes the payment made to purchase any given products. The `Aggregate transaction amount` includes all kinds of *transactions* made through MinsaPay: subsidies, deposits, payments and withdrewals.
 
 ## Index and explanations
 
@@ -45,6 +48,7 @@ Booths can calculate the sales statement afterward. Every profits other than the
     * user#284 charged ₩2,147,483,647 (about \$1,787,440) at transaction 2844. This was the same type of human error like the one of user#295 and was fixed 11 seconds later at transaction 2845.
 * At the day of the festival, the MinsaPay server went down for `13 minutes 15 seconds` from 10:17:55 AM to 10:31:10 AM. This can be seen by the gap between transaction `1546` and `1547`. The problem was due to the sudden surge of user request exceeding the free tier limit of the database. The problem was fixed soon, and the problem did not reoccur after purchasing a paid plan.
 * During the momentary server failure, each booths created their own billing spreadsheet. After the festival, these spreadsheets were collected and merged. Students payed their unpaid bills through the credit payment booth, which is booth#017.
+* A $0 payment is repetitively made in booth#001. It is because of the free pass given to any students designated by Booth#001. Any students with this free pass can get unlimited access to any product sold in booth#001.
 
 ## `anonymize.ipynb`
 
