@@ -10,10 +10,10 @@ MinsaPay is an electronic payment system designed for the KMLA Summer Festival (
 |----|----|
 |Users|400|
 |Transactions|2,900|
-|Total payment amount|Made payment worth $4,000|
+|Total payment amount|Processed payment worth $4,000|
 |Total transaction amount|Transacted worth $14,400|
 
-The `Aggregate payment amount` only includes the payment made to purchase any given products. The `Aggregate transaction amount` includes all kinds of *transactions* made through MinsaPay: subsidies, deposits, payments and withdrewals.
+The `total payment amount` only includes the payment made to purchase any given products. The `total transaction amount` consists of all kinds of transactions made through MinsaPay: subsidies, deposits, payments, and withdrawals.
 
 ## Index and explanations
 
